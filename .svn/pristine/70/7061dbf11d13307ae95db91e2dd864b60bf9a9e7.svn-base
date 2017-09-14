@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package name="lovelovep" format_version="4">
+    <Manifest src="manifest.xml" />
+    <BehaviorDescriptions>
+        <BehaviorDescription name="behavior" src="." xar="behavior.xar" />
+    </BehaviorDescriptions>
+    <Dialogs />
+    <Resources>
+        <File name="ans50" src="html/ans50.html" />
+        <File name="ans75" src="html/ans75.html" />
+        <File name="ans100" src="html/ans100.html" />
+        <File name="hand" src="html/hand.html" />
+        <File name="opening" src="html/opening.html" />
+        <File name="opening" src="html/opening.png" />
+        <File name="thinking" src="html/thinking.html" />
+        <File name="thinking" src="html/thinking.mp4" />
+        <File name="icon" src="icon.png" />
+        <File name="100percent" src="html/100percent.png" />
+        <File name="50percent" src="html/50percent.png" />
+        <File name="75percent" src="html/75percent.png" />
+        <File name="hand" src="html/hand.png" />
+    </Resources>
+    <Topics />
+    <IgnoredPaths>
+        <Path src=".metadata" />
+    </IgnoredPaths>
+</Package>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="biz_atika_lovelovep" version="1.0.5">
+ <names>
+  <name lang="en_US">lovelovep</name>
+  <name lang="en_US-x-scrald">lovelovep</name>
+  <name lang="ja_JP">lovelovep</name>
+  <name lang="ja_JP-x-scrald">lovelovep</name>
+ </names>
+ <supportedLanguages>
+  <language>ja_JP</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>ja_JP</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <nature>interactive</nature>
+   <names>
+    <name lang="ja_JP">lovelovep</name>
+    <name lang="ja_JP-x-scrald">lovelovep</name>
+   </names>
+   <autonomous>
+    <condition purpose="launchTrigger"><![CDATA[(('Launchpad/NumPeopleZone2' > 0) ~ 3) ]]></condition>
+   </autonomous>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.4.1" maxVersion="2.4.5"/>
+  <robotRequirement model="JULIETTE_Y20"/>
+ </requirements>
+</package>
